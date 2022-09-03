@@ -29,8 +29,16 @@ apt install docker.io
 # The Docker Desktop link: https://docs.docker.com/desktop/install/windows-install
 ```
 
+>Fourth, install curl
+```bash
+# If your device is Linux, use "apt" package manager to install it.
+apt install curl
+
+# If your device is Windows, need not do it.
+```
+
 >Last, use "docker" command to start this image!
 ```bash
 # This operation may take some time, please wait for it!
-cd TermuxPackageBuilder && docker import package-builder.tar termuxPackageBuilder && docker run -t -i termuxPackageBuilder
+cd TermuxPackageBuilder && chmod 777 fetchFile.sh && ./fetchFile.sh && docker import package-builder.tar termuxPackageBuilder && docker run -t -i termuxPackageBuilder
 ```
