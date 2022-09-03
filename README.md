@@ -12,7 +12,7 @@ If your device cannot download termux-builder image, please use this.
 apt install git
 
 # If your device is Windows, please download the Git.
-[Git](https://git-scm.com/)
+# The Git link: https://git-scm.com/
 ```
 
 >Second, clone this depository.
@@ -26,8 +26,8 @@ git clone https://github.com/CaiMuCheng/TermuxPackageBuilder
 apt install docker.io
 
 # If your device is Windows, please download the "Docker Desktop".
+# The Docker Desktop link: https://docs.docker.com/desktop/install/windows-install
 ```
-[DockerDesktop](https://docs.docker.com/desktop/install/windows-install/)
 
 >Last, use "docker" command to start this image!
 ```bash
