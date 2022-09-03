@@ -12,8 +12,8 @@ If your device cannot download termux-builder image, please use this.
 apt install git
 
 # If your device is Windows, please download the Git.
-```
 [Git](https://git-scm.com/)
+```
 
 >Second, clone this depository.
 ```bash
