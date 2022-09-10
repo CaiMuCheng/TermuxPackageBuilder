@@ -40,5 +40,5 @@ apt install curl
 >Last, use "docker" command to start this image!
 ```bash
 # This operation may take some time, please wait for it!
-cd TermuxPackageBuilder && chmod 777 fetchFile.sh && ./fetchFile.sh && docker load -i package-builder.tar && docker run -t -i ghcr.io/termux/package-builder
+cd TermuxPackageBuilder && chmod 777 fetchFile.sh && ./fetchFile.sh && docker load -i package-builder.tar && git clone https://github.com/termux/termux-packages && cd termux-packages && cd scripts && ./run-docker.sh
 ```
